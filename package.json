@@ -1,0 +1,13 @@
+{
+  "name": "xiaohongshu-note-reader",
+  "version": "1.0.0",
+  "private": true,
+  "description": "小红书笔记读取器：使用本机正常登录状态读取笔记页面数据，结构化输出 JSON/CSV",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}

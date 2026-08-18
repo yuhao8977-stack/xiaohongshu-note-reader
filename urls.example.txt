@@ -1,0 +1,5 @@
+# 小红书笔记读取器 批量链接示例文件
+# 用法：复制本文件为 urls.txt，把下面示例替换为你的真实链接（每行一个，# 开头为注释）
+# 然后运行：node src\main.js --file urls.txt
+https://www.xiaohongshu.com/discovery/item/6572cc17000000000700978a?source=webshare&xhsshare=pc_web&xsec_token=YOUR_XSEC_TOKEN&xsec_source=pc_share
+https://www.xiaohongshu.com/discovery/item/aaaaaaaaaaaaaaaaaaaaaaaa

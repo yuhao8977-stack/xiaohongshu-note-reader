@@ -1,0 +1,21 @@
+# 依赖
+node_modules/
+
+# 浏览器登录状态（含个人登录会话，绝不上传）
+browser_profile/
+
+# 采集数据与缓存
+data/
+exports/
+
+# 调试现场与日志
+debug/
+logs/
+*.log
+
+# 本地批量链接文件（可能含真实 xsec_token，绝不上传；请用 urls.example.txt 作为模板）
+urls.txt
+
+# 临时文件
+_tmp_*.js
+menu_test.log
