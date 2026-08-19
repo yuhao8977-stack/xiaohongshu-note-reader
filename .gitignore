@@ -7,6 +7,9 @@ browser_profile/
 # 采集数据与缓存
 data/
 exports/
+cache/
+media/
+models/
 
 # 调试现场与日志
 debug/
@@ -16,6 +19,31 @@ logs/
 # 本地批量链接文件（可能含真实 xsec_token，绝不上传；请用 urls.example.txt 作为模板）
 urls.txt
 
+# C 类敏感信息（边界规则补充）
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.token
+
+# B 类大文件/运行数据（边界规则补充）
+*.db
+*.sqlite
+*.sqlite3
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.mp3
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.safetensors
+
 # 临时文件
 _tmp_*.js
 menu_test.log
+
